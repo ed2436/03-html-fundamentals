@@ -1,0 +1,96 @@
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  color: #1098ad;
+  font: size 26px;
+  background-color: #777;
+  font-style: italic;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 27px;
+}
+
+/* p
+  font-size: 20px;
+
+  line-height: 1.5;
+}
+   { */
+
+li {
+  font: size 40px;
+}
+
+/* footer p 
+  font-size: 16px;
+}
+  { */
+
+article header p {
+  font-style: italic;
+}
+#copyright {
+  font-size: 16px;
+}
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+.author-related {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* li
+list-style: none;
+}
+{  */
+.style {
+  list-style: bullets;
+}
+aside {
+  background-color: #f7f7f7;
+  border: 5px dotted #1098ad;
+}
+/* body
+    background-color: #ad1061;
+
+  }{ */
+/* li:nth-child(odd) 
+  font-weight: bold;
+}{ */
+
+/* li:last-child 
+  font-style: italic;
+}{ */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orange;
+  text-decoration: underline, wavy, orange;
+  font-weight: bold;
+}
+a:active {
+  background-color: pink;
+  font-style: italic;
+}
