@@ -33,7 +33,7 @@ Tell us what you like (and what not): Never again waste time thinking about what
 
 Approve your weekly meal plan: Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes.
 
-Receive meals at convenient time: Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
+Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
 
 ### Omnifood works with any diet
 
@@ -140,3 +140,190 @@ Privacy & terms
   - Pricing + Features
   - CTA
     -Footer
+
+<!-- /*
+---TYPOGRAPHY SYSTEM
+SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+      ---colors
+      primary: #e67e22
+      tints:#fdf2e9
+      shades: #cf711f
+      Accents:
+      Greys
+      #555
+
+      ----shadows
+
+      ----boader-radius
+
+      ----whitespace
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+      Font weights:
+      default:400
+
+      line-heights:
+
+
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik" sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* GENERAL REUSEABLE COMPONENTS */
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 4.8rem;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  border-radius: 0.9rem;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+
+  /* animation */
+  transition: background-color 0.3s;
+}
+.btn---full:link,
+.btn---full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+.btn---outline:link,
+.btn---outline:visited {
+  background-color: #fff;
+  color: #000;
+}
+.btn---full:hover,
+.btn---full:active {
+  background-color: #cf711f;
+}
+.btn---outline:hover,
+.btn---outline:active {
+  /* border: #fff; */
+  /* tricks to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+.margin-rigth-sm {
+  margin-right: 1.6rem !important;
+}
+
+/* HEADER */
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+}
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 4.8rem;
+}
+
+.hero-desciption {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  border-radius: 0.9rem;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+
+  /* animation */
+  transition: background-color 0.3s;
+}
+.btn---full:link,
+.btn---full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+.btn---outline:link,
+.btn---outline:visited {
+  background-color: #fff;
+  color: #000;
+}
+.btn---full:hover,
+.btn---full:active {
+  background-color: #cf711f;
+}
+.btn---outline:hover,
+.btn---outline:active {
+  /* border: #fff; */
+  /* tricks to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-rigth-sm {
+  margin-right: 1.6rem !important;
+}
+.delivered-meals {
+  display: flex;
+  margin-top: 7.4rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+.delivered-imgs {
+  display: flex;
+}
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+.delivered-imgs:last-child {
+  margin: 0;
+}
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.delivered-text span {
+  color: #cf711f;
+}
+ -->
