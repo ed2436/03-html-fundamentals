@@ -28,7 +28,12 @@ SPACING SYSTEM (px)
 
       line-heights:
       default:1
-      paragragh default:1.small:1.3
+      paragragh default:1.05
+      small:1.3
+
+      letter spacing: 
+        0.5
+          0.75
 
 
 */
@@ -50,20 +55,28 @@ body {
 }
 
 /* GENERAL REUSEABLE COMPONENTS */
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading_tertiary {
   font-weight: 700;
-  line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
-  margin-bottom: 4.8rem;
+  margin-bottom: 3.2rem;
+}
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
 }
 .heading-secondary {
   font-size: 4.4rem;
   color: #333;
   line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 
+.heading_tertiary {
+  font-size: 3rem;
+  line-height: 1;
+}
 .subheading {
   display: block;
   font-size: 1.6rem;
@@ -71,7 +84,7 @@ body {
   color: #e67e22;
   margin-bottom: 1.6rem;
   text-transform: uppercase;
-  letter-spacing: 1;
+  letter-spacing: 0.75px;
 }
 
 .btn:link,
@@ -217,7 +230,8 @@ body {
 }
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
 }
 /* .section-how div div {
   padding: 100px;
@@ -241,5 +255,24 @@ body {
 }
 
 .step-img {
-  width: 50%;
+  width: 35%;
+}
+
+.step_number {
+  font-size: 9rem;
+  font-weight: 700;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.step-img-box {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.grid--center--v {
+  align-items: center;
 }
