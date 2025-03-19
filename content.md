@@ -327,3 +327,28 @@ body {
   color: #cf711f;
 }
  -->
+
+<img
+              src="img/meals/meal-1.jpg"
+              class="meal-img"
+              alt="Japanese Gyozas"
+            />
+<div meal-content>
+<div class="meal-tags"><span class="tag">Vegeterian</span></div>
+<p class="meal-tittle">Japanese Gyozas</p>
+<ul class="meal-attributes">
+<li class="meal-attribute">
+<ion-icon class="meal-icon" name="flame"></ion-icon>
+<span><strong>650</strong> calories</span>
+</li>
+<li class="meal-attribute">
+<ion-icon class="meal-icon" name="restaurant"></ion-icon>
+<span>nutriscore &reg; <strong>74</strong></span>
+</li>
+<li class="meal-attribute">
+<ion-icon class="meal-icon" name="star-outline"></ion-icon>
+<span>4.9 rating <strong>(567)</strong></span>
+</li>
+</ul>
+</div>
+</div>

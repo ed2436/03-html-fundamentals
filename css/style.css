@@ -51,7 +51,7 @@ body {
   font-family: "Rubik" sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #333;
 }
 
 /* GENERAL REUSEABLE COMPONENTS */
@@ -171,31 +171,6 @@ body {
   background: #e67e22;
 }
 
-/* SECTION-HERO */
-.hero {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
-  align-items: center;
-}
-
-.hero-img {
-  width: 100%;
-}
-
-.hero-desciption {
-  font-size: 2rem;
-  line-height: 1.5;
-}
-
-.section-hero {
-  background-color: #fdf2e9;
-  padding: 4.8rem 9.6rem 0;
-}
-
 .delivered-meals {
   display: flex;
   margin-top: 7.4rem;
@@ -256,6 +231,7 @@ body {
 
 .step-img {
   width: 35%;
+  z-index: 1;
 }
 
 .step_number {
@@ -269,10 +245,39 @@ body {
   line-height: 1.8;
 }
 .step-img-box {
+  position: relative;
   display: flex;
   align-items: center;
   align-content: center;
 }
 .grid--center--v {
   align-items: center;
+}
+.step-img-box::before {
+  content: "";
+  display: block;
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #c2bbbb;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-105%, -50%);
+  /* z-index: -1; */
+}
+.step-img-box::after {
+  content: "";
+  display: block;
+  width: 50%;
+  padding-bottom: 50%;
+  background-color: #857f7f;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-117%, -50%);
+  /* z-index: -1; */
 }
