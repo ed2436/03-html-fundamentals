@@ -182,3 +182,122 @@ strong {
 .gallery-item img:hover {
   transform: scale(1.1);
 }
+
+/* PRICING */
+.section-pricing {
+  padding: 9.6rem 0;
+}
+.pricing-plan {
+  border-radius: 11px;
+  padding: 4.8rem;
+  width: 75%;
+}
+.pricing-plan--start {
+  justify-content: end;
+  border: 2px solid #ccc7c3;
+  padding: 4.6rem;
+}
+.pricing-plan--complete {
+  background-color: #ccc7c3;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best value";
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 6%;
+  right: -10%;
+  background-color: #b8a65f;
+  padding: 0.8rem 3.2rem;
+  transform: rotate(45deg);
+}
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #e67e22;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 32px;
+}
+.plan-price {
+  font-weight: 700;
+  font-size: 7.4rem;
+  color: black;
+  margin-bottom: 1.6rem;
+}
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #777;
+}
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+.grid:not(:last-child) {
+  margin-bottom: 10rem;
+}
+
+/* features */
+.feature-icon {
+  color: #cf711f;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: 1.6rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+  background-color: #c2bbbb;
+}
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+.plan-details {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.section-cta {
+  padding: 9.6rem 0;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #cf711f; */
+  box-shadow: 0 2.4rem 2.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  /* temp */
+  height: 40rem;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.cta-text-box {
+}

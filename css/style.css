@@ -229,6 +229,7 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+  /* margin-bottom: 123px; */
 }
 /* .section-how div div {
   padding: 100px;
